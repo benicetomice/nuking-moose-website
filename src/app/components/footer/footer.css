@@ -1,0 +1,21 @@
+footer {
+  position: absolute;
+  bottom: 3%;
+  width: 100%;
+}
+
+.social, .nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social img{
+  height: 45px;
+  padding: 5px 10px;
+}
+
+.nav img{
+  max-height: 45px;
+  padding: 10px 23px;
+}
+
