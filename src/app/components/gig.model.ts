@@ -1,5 +1,5 @@
 export interface Gig {
-  date: Date;
+  date: string;
   city: string;
   venue: string;
 }

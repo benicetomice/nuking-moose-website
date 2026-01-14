@@ -11,20 +11,32 @@
     <img src="/Buttons/instagram_normal.png" alt="Instagram">
   </div>
 
-<nav>
-  <div class="nav">
+  <nav>
+    <div class="nav">
+      <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <img src="/Buttons/home_normal.png" alt="Home">
+      </a>
 
-    <a href="/home"><img src="/Buttons/home_normal.png" alt="Home"></a>
+      <a routerLink="/media" routerLinkActive="active">
+        <img src="/Buttons/media_normal.png" alt="Media">
+      </a>
 
-    <a href="/media"><img src="/Buttons/media_normal.png" alt=""></a>
+      <a routerLink="/live" routerLinkActive="active">
+        <img src="/Buttons/live_normal.png" alt="Live">
+      </a>
 
-    <a href="/live"><img src="/Buttons/live_normal.png" alt=""></a>
+      <a routerLink="/merch" routerLinkActive="active">
+        <img src="/Buttons/merch_normal.png" alt="Merch">
+      </a>
 
-    <a href="/merch"><img src="/Buttons/merch_normal.png" alt=""></a>
+      <a routerLink="/press" routerLinkActive="active">
+        <img src="/Buttons/press_normal.png" alt="Press">
+      </a>
 
-    <a href="/press"><img src="/Buttons/press_normal.png" alt=""></a>
+      <a routerLink="/contact" routerLinkActive="active">
+        <img src="/Buttons/contact_normal.png" alt="Contact">
+      </a>
+    </div>
+  </nav>
 
-    <a href="/contact"><img src="/Buttons/contact_normal.png" alt=""></a>
-  </div>
-</nav>
 </footer>
